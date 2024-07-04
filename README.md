@@ -1,7 +1,7 @@
 # Reproduction of an Error on Flox 1.1 + Node
 
-1. Run flox activate -r aronchick/floxrepro
-2. Run just all
+1. Run `flox activate -r aronchick/floxrepro`
+2. Run `just all`
 
 -- Observe - it runs fine on your laptop
 
