@@ -10,7 +10,6 @@ just.pkg-path = "just"
 go_1_21.pkg-path = "go_1_21"
 corepack.pkg-path = "corepack"
 nodejs_21.pkg-path = "nodejs_21"
-glibmm.pkg-path = "glibmm"
 
 # Set environment variables in the `[vars]` section. These variables may not
 # reference one another, and are added to the environment without first
