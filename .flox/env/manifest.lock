@@ -1,0 +1,712 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "corepack": {
+        "pkg-path": "corepack",
+        "pkg-group": null,
+        "priority": null,
+        "version": null,
+        "systems": null
+      },
+      "glibmm": {
+        "pkg-path": "glibmm",
+        "pkg-group": null,
+        "priority": null,
+        "version": null,
+        "systems": null
+      },
+      "go_1_21": {
+        "pkg-path": "go_1_21",
+        "pkg-group": null,
+        "priority": null,
+        "version": null,
+        "systems": null
+      },
+      "just": {
+        "pkg-path": "just",
+        "pkg-group": null,
+        "priority": null,
+        "version": null,
+        "systems": null
+      },
+      "nodejs_21": {
+        "pkg-path": "nodejs_21",
+        "pkg-group": null,
+        "priority": null,
+        "version": null,
+        "systems": null
+      }
+    },
+    "vars": {},
+    "hook": {
+      "on-activate": ""
+    },
+    "profile": {
+      "common": null,
+      "bash": null,
+      "zsh": null,
+      "fish": null,
+      "tcsh": null
+    },
+    "options": {
+      "systems": [
+        "aarch64-darwin",
+        "aarch64-linux",
+        "x86_64-darwin",
+        "x86_64-linux"
+      ],
+      "allow": {
+        "unfree": null,
+        "broken": null,
+        "licenses": []
+      },
+      "semver": {
+        "allow-pre-releases": null
+      }
+    }
+  },
+  "packages": [
+    {
+      "attr_path": "corepack",
+      "broken": false,
+      "derivation": "/nix/store/mk6f6a0xqwrxj09qhbzvmymphlf66ihn-corepack-nodejs-20.12.2.drv",
+      "description": "Wrappers for npm, pnpm and Yarn via Node.js Corepack",
+      "install_id": "corepack",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6143fc5eeb9c4f00163267708e26191d1e918932",
+      "name": "corepack-nodejs-20.12.2",
+      "pname": "corepack",
+      "rev": "6143fc5eeb9c4f00163267708e26191d1e918932",
+      "rev_count": 615148,
+      "rev_date": "2024-04-21T15:54:59Z",
+      "scrape_date": "2024-04-25T00:07:35Z",
+      "stabilities": [
+        "stable",
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "nodejs-20.12.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/p9q0wghbsk6j0j76iv3xnyxb6yw9qi5w-corepack-nodejs-20.12.2"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "corepack",
+      "broken": false,
+      "derivation": "/nix/store/8hljdircllrcgwh8d0b3dcksvfixi46p-corepack-nodejs-20.12.2.drv",
+      "description": "Wrappers for npm, pnpm and Yarn via Node.js Corepack",
+      "install_id": "corepack",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6143fc5eeb9c4f00163267708e26191d1e918932",
+      "name": "corepack-nodejs-20.12.2",
+      "pname": "corepack",
+      "rev": "6143fc5eeb9c4f00163267708e26191d1e918932",
+      "rev_count": 615148,
+      "rev_date": "2024-04-21T15:54:59Z",
+      "scrape_date": "2024-04-25T00:07:35Z",
+      "stabilities": [
+        "stable",
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "nodejs-20.12.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/dc05ng6f5d3z3166g3vw0s9lanv6aylm-corepack-nodejs-20.12.2"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "corepack",
+      "broken": false,
+      "derivation": "/nix/store/4gfr70cxfdyprbvhc268k915rdlvh9x9-corepack-nodejs-20.12.2.drv",
+      "description": "Wrappers for npm, pnpm and Yarn via Node.js Corepack",
+      "install_id": "corepack",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6143fc5eeb9c4f00163267708e26191d1e918932",
+      "name": "corepack-nodejs-20.12.2",
+      "pname": "corepack",
+      "rev": "6143fc5eeb9c4f00163267708e26191d1e918932",
+      "rev_count": 615148,
+      "rev_date": "2024-04-21T15:54:59Z",
+      "scrape_date": "2024-04-25T00:07:35Z",
+      "stabilities": [
+        "stable",
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "nodejs-20.12.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/sbqgvch0dgw6wy76qm8g6p098n7szi4k-corepack-nodejs-20.12.2"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "corepack",
+      "broken": false,
+      "derivation": "/nix/store/lmip1c9kfqm842fp0h5qh6blq5wqkfl0-corepack-nodejs-20.12.2.drv",
+      "description": "Wrappers for npm, pnpm and Yarn via Node.js Corepack",
+      "install_id": "corepack",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6143fc5eeb9c4f00163267708e26191d1e918932",
+      "name": "corepack-nodejs-20.12.2",
+      "pname": "corepack",
+      "rev": "6143fc5eeb9c4f00163267708e26191d1e918932",
+      "rev_count": 615148,
+      "rev_date": "2024-04-21T15:54:59Z",
+      "scrape_date": "2024-04-25T00:07:35Z",
+      "stabilities": [
+        "stable",
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "nodejs-20.12.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/lwmp8n0pp9rq08bmfjl7axkrs6sh6xqx-corepack-nodejs-20.12.2"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "glibmm",
+      "broken": false,
+      "derivation": "/nix/store/0avk5djavf01pigzp2wasih2jhjdqi4z-glibmm-2.66.6.drv",
+      "description": "C++ interface to the GLib library",
+      "install_id": "glibmm",
+      "license": "LGPL-2.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6143fc5eeb9c4f00163267708e26191d1e918932",
+      "name": "glibmm-2.66.6",
+      "pname": "glibmm",
+      "rev": "6143fc5eeb9c4f00163267708e26191d1e918932",
+      "rev_count": 615148,
+      "rev_date": "2024-04-21T15:54:59Z",
+      "scrape_date": "2024-04-25T00:07:35Z",
+      "stabilities": [
+        "stable",
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.66.6",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/8gdgaarxj2yrpa2dzvzfkvlw5n3sbwaj-glibmm-2.66.6-dev",
+        "out": "/nix/store/ljp12b0h7bfya5spqk2x56ifx2ky7p2n-glibmm-2.66.6"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "glibmm",
+      "broken": false,
+      "derivation": "/nix/store/4xrpr4r9xjajawh550g707dncsammx18-glibmm-2.66.6.drv",
+      "description": "C++ interface to the GLib library",
+      "install_id": "glibmm",
+      "license": "LGPL-2.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6143fc5eeb9c4f00163267708e26191d1e918932",
+      "name": "glibmm-2.66.6",
+      "pname": "glibmm",
+      "rev": "6143fc5eeb9c4f00163267708e26191d1e918932",
+      "rev_count": 615148,
+      "rev_date": "2024-04-21T15:54:59Z",
+      "scrape_date": "2024-04-25T00:07:35Z",
+      "stabilities": [
+        "stable",
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.66.6",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/390q11rh0lzf72mkniq1a6694rxdl3qc-glibmm-2.66.6-dev",
+        "out": "/nix/store/rs0ry8xic7g5n0xif7082s1q7wjicv6z-glibmm-2.66.6"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "glibmm",
+      "broken": false,
+      "derivation": "/nix/store/pc1d5fq7fmhsl6f3vysc0m35ij2hbq6k-glibmm-2.66.6.drv",
+      "description": "C++ interface to the GLib library",
+      "install_id": "glibmm",
+      "license": "LGPL-2.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6143fc5eeb9c4f00163267708e26191d1e918932",
+      "name": "glibmm-2.66.6",
+      "pname": "glibmm",
+      "rev": "6143fc5eeb9c4f00163267708e26191d1e918932",
+      "rev_count": 615148,
+      "rev_date": "2024-04-21T15:54:59Z",
+      "scrape_date": "2024-04-25T00:07:35Z",
+      "stabilities": [
+        "stable",
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.66.6",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/0wa1vmgwzhrcqa4794jcgi8ilf5z49r3-glibmm-2.66.6-dev",
+        "out": "/nix/store/ik7rsll2hkaiwpx1za5ndwika273k71n-glibmm-2.66.6"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "glibmm",
+      "broken": false,
+      "derivation": "/nix/store/7d388sg5ayzcgph7cgvv63p7siw9d1xj-glibmm-2.66.6.drv",
+      "description": "C++ interface to the GLib library",
+      "install_id": "glibmm",
+      "license": "LGPL-2.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6143fc5eeb9c4f00163267708e26191d1e918932",
+      "name": "glibmm-2.66.6",
+      "pname": "glibmm",
+      "rev": "6143fc5eeb9c4f00163267708e26191d1e918932",
+      "rev_count": 615148,
+      "rev_date": "2024-04-21T15:54:59Z",
+      "scrape_date": "2024-04-25T00:07:35Z",
+      "stabilities": [
+        "stable",
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.66.6",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/hxhxdl02n9917a3n6v71c50h7bsgbrdl-glibmm-2.66.6-dev",
+        "out": "/nix/store/vjs9r6mk01xgg8bc9hj1ixjf2ia66hnr-glibmm-2.66.6"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "go_1_21",
+      "broken": false,
+      "derivation": "/nix/store/w87baf2y3k6kf6n1yal83pl1w9ld407c-go-1.21.9.drv",
+      "description": "The Go Programming language",
+      "install_id": "go_1_21",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6143fc5eeb9c4f00163267708e26191d1e918932",
+      "name": "go-1.21.9",
+      "pname": "go_1_21",
+      "rev": "6143fc5eeb9c4f00163267708e26191d1e918932",
+      "rev_count": 615148,
+      "rev_date": "2024-04-21T15:54:59Z",
+      "scrape_date": "2024-04-25T00:07:35Z",
+      "stabilities": [
+        "stable",
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "go-1.21.9",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/hnqasgvlimar5j7k0kpbbbxbkn8zn1sj-go-1.21.9"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "go_1_21",
+      "broken": false,
+      "derivation": "/nix/store/cwbfjlajagi6nvg6rvhg6ncn9z4r6yfa-go-1.21.9.drv",
+      "description": "The Go Programming language",
+      "install_id": "go_1_21",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6143fc5eeb9c4f00163267708e26191d1e918932",
+      "name": "go-1.21.9",
+      "pname": "go_1_21",
+      "rev": "6143fc5eeb9c4f00163267708e26191d1e918932",
+      "rev_count": 615148,
+      "rev_date": "2024-04-21T15:54:59Z",
+      "scrape_date": "2024-04-25T00:07:35Z",
+      "stabilities": [
+        "stable",
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "go-1.21.9",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/1j8kg9v5zck8j2vnxng7qg9fd7kmmahm-go-1.21.9"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "go_1_21",
+      "broken": false,
+      "derivation": "/nix/store/wdgbw14mhm9x6igmvq59k2ifxdaxb4mk-go-1.21.9.drv",
+      "description": "The Go Programming language",
+      "install_id": "go_1_21",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6143fc5eeb9c4f00163267708e26191d1e918932",
+      "name": "go-1.21.9",
+      "pname": "go_1_21",
+      "rev": "6143fc5eeb9c4f00163267708e26191d1e918932",
+      "rev_count": 615148,
+      "rev_date": "2024-04-21T15:54:59Z",
+      "scrape_date": "2024-04-25T00:07:35Z",
+      "stabilities": [
+        "stable",
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "go-1.21.9",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/hy3h296ckqcdrm4bq8gxwrrpgfi84lxm-go-1.21.9"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "go_1_21",
+      "broken": false,
+      "derivation": "/nix/store/x5ayywa92zmxqb4s206l8xs5ccjcpvl7-go-1.21.9.drv",
+      "description": "The Go Programming language",
+      "install_id": "go_1_21",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6143fc5eeb9c4f00163267708e26191d1e918932",
+      "name": "go-1.21.9",
+      "pname": "go_1_21",
+      "rev": "6143fc5eeb9c4f00163267708e26191d1e918932",
+      "rev_count": 615148,
+      "rev_date": "2024-04-21T15:54:59Z",
+      "scrape_date": "2024-04-25T00:07:35Z",
+      "stabilities": [
+        "stable",
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "go-1.21.9",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/r9qdln83ffwmhjrl20byxxxav645mb5b-go-1.21.9"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "just",
+      "broken": false,
+      "derivation": "/nix/store/kiwj7mjbg6dlpqv4r7vabkkx4caij8bh-just-1.25.2.drv",
+      "description": "A handy way to save and run project-specific commands",
+      "install_id": "just",
+      "license": "CC0-1.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6143fc5eeb9c4f00163267708e26191d1e918932",
+      "name": "just-1.25.2",
+      "pname": "just",
+      "rev": "6143fc5eeb9c4f00163267708e26191d1e918932",
+      "rev_count": 615148,
+      "rev_date": "2024-04-21T15:54:59Z",
+      "scrape_date": "2024-04-25T00:07:35Z",
+      "stabilities": [
+        "stable",
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.25.2",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "doc": "/nix/store/4v3vhnbgwvar7qbr4iy00gqqf1zfrrsq-just-1.25.2-doc",
+        "man": "/nix/store/igxiip2bywwgk97bcfmz8rfhcwalnabp-just-1.25.2-man",
+        "out": "/nix/store/z65fyiw9sgg9ywxb16kzgjn4335bkdgk-just-1.25.2"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "just",
+      "broken": false,
+      "derivation": "/nix/store/fnva8jdhhpxcpciz4j4n47gb9zmpiaxx-just-1.25.2.drv",
+      "description": "A handy way to save and run project-specific commands",
+      "install_id": "just",
+      "license": "CC0-1.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6143fc5eeb9c4f00163267708e26191d1e918932",
+      "name": "just-1.25.2",
+      "pname": "just",
+      "rev": "6143fc5eeb9c4f00163267708e26191d1e918932",
+      "rev_count": 615148,
+      "rev_date": "2024-04-21T15:54:59Z",
+      "scrape_date": "2024-04-25T00:07:35Z",
+      "stabilities": [
+        "stable",
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.25.2",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "doc": "/nix/store/wgnh87vfdmnvs7wav321sg2frpdrxi8w-just-1.25.2-doc",
+        "man": "/nix/store/qwqvkd7sdfv0y8ja6yrszh41ddb1lbab-just-1.25.2-man",
+        "out": "/nix/store/ya5l2p4s8122gal35impls0hxqvgikq7-just-1.25.2"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "just",
+      "broken": false,
+      "derivation": "/nix/store/b6k51iy5jx1n5xhkrwrm4vhraid3a90f-just-1.25.2.drv",
+      "description": "A handy way to save and run project-specific commands",
+      "install_id": "just",
+      "license": "CC0-1.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6143fc5eeb9c4f00163267708e26191d1e918932",
+      "name": "just-1.25.2",
+      "pname": "just",
+      "rev": "6143fc5eeb9c4f00163267708e26191d1e918932",
+      "rev_count": 615148,
+      "rev_date": "2024-04-21T15:54:59Z",
+      "scrape_date": "2024-04-25T00:07:35Z",
+      "stabilities": [
+        "stable",
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.25.2",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "doc": "/nix/store/mrirhr3b4jmlyrj4hmmidby83bc65dll-just-1.25.2-doc",
+        "man": "/nix/store/rq5p2xipbhqhm0321plymlxvdh4qwyhy-just-1.25.2-man",
+        "out": "/nix/store/hkh658l8gszli0fcbn0c27fidwcx6skc-just-1.25.2"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "just",
+      "broken": false,
+      "derivation": "/nix/store/wzcicf2f8jypzx69z5348m1xqsjq07kv-just-1.25.2.drv",
+      "description": "A handy way to save and run project-specific commands",
+      "install_id": "just",
+      "license": "CC0-1.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6143fc5eeb9c4f00163267708e26191d1e918932",
+      "name": "just-1.25.2",
+      "pname": "just",
+      "rev": "6143fc5eeb9c4f00163267708e26191d1e918932",
+      "rev_count": 615148,
+      "rev_date": "2024-04-21T15:54:59Z",
+      "scrape_date": "2024-04-25T00:07:35Z",
+      "stabilities": [
+        "stable",
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.25.2",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "doc": "/nix/store/n9a0w5jclm4rh85c5ckpxxg5qqlcpban-just-1.25.2-doc",
+        "man": "/nix/store/h4a4dx6mjdmhbxfp3ykl2zqdmqs9zjfz-just-1.25.2-man",
+        "out": "/nix/store/ap71wavjciyyfqsr7j0dz5b7k36r1w1w-just-1.25.2"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "nodejs_21",
+      "broken": false,
+      "derivation": "/nix/store/ndcy9jlzxviid8yxb4k7afcacsdbppq7-nodejs-21.7.3.drv",
+      "description": "Event-driven I/O framework for the V8 JavaScript engine",
+      "install_id": "nodejs_21",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6143fc5eeb9c4f00163267708e26191d1e918932",
+      "name": "nodejs-21.7.3",
+      "pname": "nodejs_21",
+      "rev": "6143fc5eeb9c4f00163267708e26191d1e918932",
+      "rev_count": 615148,
+      "rev_date": "2024-04-21T15:54:59Z",
+      "scrape_date": "2024-04-25T00:07:35Z",
+      "stabilities": [
+        "stable",
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "nodejs-21.7.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "libv8": "/nix/store/y6xj0m2n7mlzgx5mc62m0lb4h02dzklr-nodejs-21.7.3-libv8",
+        "out": "/nix/store/hxr5ziwxn72wxcrhxasdy542h6z0r9hg-nodejs-21.7.3"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "nodejs_21",
+      "broken": false,
+      "derivation": "/nix/store/dgzpa4dzhzlwvqwz83z798w8n13m3m36-nodejs-21.7.3.drv",
+      "description": "Event-driven I/O framework for the V8 JavaScript engine",
+      "install_id": "nodejs_21",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6143fc5eeb9c4f00163267708e26191d1e918932",
+      "name": "nodejs-21.7.3",
+      "pname": "nodejs_21",
+      "rev": "6143fc5eeb9c4f00163267708e26191d1e918932",
+      "rev_count": 615148,
+      "rev_date": "2024-04-21T15:54:59Z",
+      "scrape_date": "2024-04-25T00:07:35Z",
+      "stabilities": [
+        "stable",
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "nodejs-21.7.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "libv8": "/nix/store/vjr64cmj37yglbzjz6hrwqa4z6hw2mz2-nodejs-21.7.3-libv8",
+        "out": "/nix/store/xfddvy0bfzc78yipmyx81irjqfpkm1d0-nodejs-21.7.3"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "nodejs_21",
+      "broken": false,
+      "derivation": "/nix/store/qk5651cbzcmx327lprc6w4vj2wkmwghn-nodejs-21.7.3.drv",
+      "description": "Event-driven I/O framework for the V8 JavaScript engine",
+      "install_id": "nodejs_21",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6143fc5eeb9c4f00163267708e26191d1e918932",
+      "name": "nodejs-21.7.3",
+      "pname": "nodejs_21",
+      "rev": "6143fc5eeb9c4f00163267708e26191d1e918932",
+      "rev_count": 615148,
+      "rev_date": "2024-04-21T15:54:59Z",
+      "scrape_date": "2024-04-25T00:07:35Z",
+      "stabilities": [
+        "stable",
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "nodejs-21.7.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "libv8": "/nix/store/wnzqqc8ik64a6zn4k4bbcgzvi8dp8vnb-nodejs-21.7.3-libv8",
+        "out": "/nix/store/pnrd7gl28dmy86pprrpifq7qny3sx1xp-nodejs-21.7.3"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "nodejs_21",
+      "broken": false,
+      "derivation": "/nix/store/2vza1j6chgmfa1s77ws7c0li9cnzl0jq-nodejs-21.7.3.drv",
+      "description": "Event-driven I/O framework for the V8 JavaScript engine",
+      "install_id": "nodejs_21",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6143fc5eeb9c4f00163267708e26191d1e918932",
+      "name": "nodejs-21.7.3",
+      "pname": "nodejs_21",
+      "rev": "6143fc5eeb9c4f00163267708e26191d1e918932",
+      "rev_count": 615148,
+      "rev_date": "2024-04-21T15:54:59Z",
+      "scrape_date": "2024-04-25T00:07:35Z",
+      "stabilities": [
+        "stable",
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "nodejs-21.7.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "libv8": "/nix/store/iq38acw88hl92vpwamfkzgk3pk3dsr0x-nodejs-21.7.3-libv8",
+        "out": "/nix/store/dfs59hwhc4mb4hdk77nc5dd39k2v2qs2-nodejs-21.7.3"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}
